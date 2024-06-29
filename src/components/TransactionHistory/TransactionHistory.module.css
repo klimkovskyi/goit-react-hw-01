@@ -1,0 +1,23 @@
+.table {
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid black;
+  width: 400px;
+  border-collapse: collapse;
+  margin-bottom: 40px;
+  box-shadow: 10px 10px 17px -4px rgba(0, 0, 0, 0.75);
+}
+.thead {
+  background-color: black;
+  color: white;
+}
+
+.table,
+.table th,
+.table td {
+  border: 1px solid black;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #807e7e;
+}

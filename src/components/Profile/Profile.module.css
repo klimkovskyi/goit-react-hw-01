@@ -1,0 +1,60 @@
+.wrapper {
+  width: 350px;
+  margin: 20px auto;
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: rgb(252, 252, 252);
+  box-shadow: 10px 10px 17px -4px rgba(0, 0, 0, 0.75);
+  transition: transform cubic-bezier(0.075, 0.82, 0.165, 1);
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.card {
+  padding: 15px 0;
+  text-align: center;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 100%;
+  color: gray;
+  font-size: large;
+
+  img {
+    background-color: rgb(48, 47, 47);
+    border-radius: 50%;
+    width: 150px;
+    height: 100%;
+    object-fit: cover;
+    border: 2px solid black;
+    margin-bottom: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+.subtitle {
+  color: black;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(194, 193, 193);
+  font-size: large;
+  font-weight: bold;
+
+  li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    border: 1px solid rgb(117, 117, 117);
+    width: 100%;
+  }
+}
